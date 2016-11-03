@@ -1,5 +1,5 @@
 syn match NirumComment /#.*/
-syn match NirumKeyword /^\(record\|enum\|boxed\|type\|union\|service\|import\)/
+syn match NirumKeyword /^\(record\|enum\|unboxed\|type\|union\|service\|import\)/
 syn match NirumPrimitiveNumberType /\(bigint\|decimal\|int32\|int64\|float32\|float64\)/
 syn match NirumPrimitiveStringType /\(text\|binary\)/
 syn match NirumPrimitiveTimeType /\(datetime\|date\)/
