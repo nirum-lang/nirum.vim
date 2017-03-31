@@ -5,7 +5,7 @@ syn match NirumPrimitiveStringType /\(text\|binary\)/
 syn match NirumPrimitiveTimeType /\(datetime\|date\)/
 syn match NirumPrimitiveBoolType /bool/
 syn match NirumPrimitiveEtcType /\(uuid\|uri\)/
-syn match NirumAnnotation /@\s*[a-zA-Z]\+[\-_a-zA-Z0-9]*\s*("[^"]*")/
+syn match NirumAnnotation /@\s*[a-zA-Z]\+[\-_a-zA-Z0-9]*\s*\((\("[^"]*"\)\?)\)\?/
 
 hi! link NirumKeyword                         Keyword
 hi! link NirumPrimitiveNumberType             Type
