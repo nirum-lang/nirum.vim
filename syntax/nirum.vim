@@ -1,4 +1,4 @@
-syn match NirumComment /#.*/
+syn match NirumComment /#.*\|\/\/.*/
 syn keyword NirumTypeDecl record enum unboxed type union service import
 syn keyword NirumMethodKeyword throws
 syn keyword NirumPrimitiveNumberType bigint decimal int32 int64 float32 float64
