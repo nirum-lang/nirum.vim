@@ -19,7 +19,7 @@ syn keyword NirumPrimitiveNumberType bigint decimal int32 int64 float32 float64
 syn keyword NirumPrimitiveStringType text binary
 syn keyword NirumPrimitiveTimeType datetime date
 syn keyword NirumPrimitiveBoolType bool
-syn keyword NirumPrimitiveEtcType uuid uri
+syn keyword NirumPrimitiveEtcType uuid url
 syn match NirumAnnotation /@\s*[a-zA-Z]\+[\-_a-zA-Z0-9]*\s*\((\("[^"]*"\)\?)\)\?/
 
 hi! link NirumTypeDecl                        Keyword
